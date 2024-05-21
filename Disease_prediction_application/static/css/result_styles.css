@@ -1,0 +1,51 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('/static/img/result_background.jpg'); /* Replace with the path to your uploaded image */
+    background-size: cover;
+     
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .result-card {
+    background-color: #9ad8f6;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .result-card__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .result-card__description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .result-card__link {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+  .result-card__link:hover {
+    text-decoration: underline;
+  }
